@@ -220,7 +220,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  patent:
+  patents:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -258,7 +258,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: patent
+      type: patents
     values:
       layout: single
       author_profile: true
