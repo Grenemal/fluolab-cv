@@ -15,11 +15,11 @@ main:
     url: /talks/    
 
   - title: "项目"
-    url: /teaching/    
+    url: /projects/    
 
     
   - title: "专利"
-    url: /portfolio/
+    url: /patents/
         
   - title: "瞎写"
     url: /year-archive/
