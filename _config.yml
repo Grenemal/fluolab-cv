@@ -260,7 +260,7 @@ defaults:
       path: ""
       type: patents
     values:
-      layout: single
+      layout: patents
       author_profile: true
       share: true
       comments: true
@@ -278,7 +278,7 @@ defaults:
       path: ""
       type: projects
     values:
-      layout: talk
+      layout: projects
       author_profile: true
       share: true
       comment: true
