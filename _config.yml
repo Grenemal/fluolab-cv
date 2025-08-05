@@ -276,9 +276,9 @@ defaults:
   # _projects
   - scope:
       path: ""
-      type: projects
+      type: teaching
     values:
-      layout: single
+      layout: talk
       author_profile: true
       share: true
       comments: true
