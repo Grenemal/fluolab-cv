@@ -263,7 +263,6 @@ defaults:
       layout: patents
       author_profile: true
       share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -281,7 +280,6 @@ defaults:
       layout: projects
       author_profile: true
       share: true
-      comment: true
   # _talks
   - scope:
       path: ""
