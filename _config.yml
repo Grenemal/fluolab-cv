@@ -260,7 +260,7 @@ defaults:
       path: ""
       type: patents
     values:
-      layout: talk
+      layout: patents
       author_profile: true
       share: true
   # _publications
