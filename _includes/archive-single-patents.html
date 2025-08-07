@@ -36,6 +36,10 @@
     {% endif %}
     {% if post.venue %}<h3><span style="color: blue;">{{post.type}}</span>, 申请号：{{post.number}} </h3>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-    {% if post.paperurl %}<p><a href=" {{ post.paperurl }} ">专利下载</a></p>{% endif %}
+    {% if post.paperurl and post.bibtexurl %}
+      <p><a href=" {{ post.paperurl }} ">专利下载</a> | <a href="{{ post.bibtexurl }}">授权信息查看</a></p>
+    {% elsif post.paperurl %}
+      <p><a href=" {{ post.paperurl }} ">专利下载</a></p>
+    {% endif %}
   </article>
 </div>
