@@ -32,7 +32,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}
-      <h3> <i class="fa fa-archive" aria-hidden="true"></i> {{ post.venue }}, <i class="fa fa-clock" aria-hidden="true"></i> 公开时间：{{ post.date | default: "1900-01-01" | date: "%Y"}}</h3>
+      <h3> <i class="fa fa-archive" aria-hidden="true"></i> {{ post.venue }}, <i class="fa fa-clock" aria-hidden="true"></i> 公开时间：{{ post.date }}</h3>
     {% endif %}
     {% if post.venue %}<h3><span style="color: blue;">{{post.type}}</span>, 申请号：{{post.number}} </h3>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}

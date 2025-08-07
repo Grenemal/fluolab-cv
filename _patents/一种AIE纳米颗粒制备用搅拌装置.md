@@ -7,6 +7,7 @@ number: "CN202421912290.2"
 type: "实用新型"
 collection: patents
 paperurl: /files/pdf/Patents-一种AIE纳米颗粒制备用搅拌装置.pdf
+bibtexurl: http://epub.cnipa.gov.cn/cred/CN223082660U
 ---
 
 
