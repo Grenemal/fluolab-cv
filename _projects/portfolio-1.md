@@ -2,6 +2,7 @@
 title: "生物质基固体酸催化汽油烷基化脱硫的研究"
 excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 collection: projects
+category: att
 ---
 
 

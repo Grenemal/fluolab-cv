@@ -84,6 +84,15 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+# project Category - The following the list of project categories and their headings
+project_category:
+  host:
+    title: '主持'
+  main:
+    title: '主要完成人'
+  att:
+    title: '参与'
+  
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
