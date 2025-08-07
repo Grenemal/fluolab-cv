@@ -6,6 +6,7 @@ venue: "授权"
 number: "CN202411260908.6"
 type: "授权发明"
 collection: patents
+paperurl: /files/pdf/Patents-一种基于AIE荧光探针的抗酸染色液及其应用.pdf
 ---
 
 

@@ -6,6 +6,7 @@ venue: "实质审查"
 number: "CN202411160371.6"
 type: "发明申请"
 collection: patents
+paperurl: /files/pdf/Patents-一种AIE荧光分子在实时荧光定量PCR或高分辨率熔解曲线分析中的应用.pdf
 ---
 
 

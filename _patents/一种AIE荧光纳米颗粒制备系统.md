@@ -6,6 +6,7 @@ venue: "授权"
 number: "CN202310815877.5"
 type: "授权发明"
 collection: patents
+paperurl: /files/pdf/Patents-一种AIE荧光纳米颗粒制备系统.pdf
 ---
 
 

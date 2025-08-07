@@ -6,6 +6,7 @@ venue: "授权"
 number: "CN202410888517.2"
 type: "授权发明"
 collection: patents
+paperurl: /files/pdf/Patents-一种AIE阴道分泌物双重荧光染色液及其应用.pdf
 ---
 
 
