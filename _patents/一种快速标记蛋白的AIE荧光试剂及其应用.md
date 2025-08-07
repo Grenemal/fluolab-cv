@@ -7,6 +7,7 @@ number: "CN202410892261.2"
 type: "授权发明"
 collection: patents
 paperurl: /files/pdf/Patents-一种快速标记蛋白的AIE荧光试剂及其应用.pdf
+bibtexurl: http://epub.cnipa.gov.cn/cred/CN118420590B
 ---
 
 

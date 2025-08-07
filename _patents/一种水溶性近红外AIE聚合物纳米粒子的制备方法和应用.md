@@ -7,6 +7,7 @@ number: "CN202310498485.0"
 type: "授权发明"
 collection: patents
 paperurl: /files/pdf/Patents-一种水溶性近红外AIE聚合物纳米粒子的制备方法和应用.pdf
+bibtexurl: http://epub.cnipa.gov.cn/cred/CN116218515B
 ---
 
 

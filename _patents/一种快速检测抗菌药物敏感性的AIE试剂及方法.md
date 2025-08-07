@@ -7,6 +7,7 @@ number: "CN202411085780.4"
 type: "授权发明"
 collection: patents
 paperurl: /files/pdf/Patents-一种快速检测抗菌药物敏感性的AIE试剂及方法.pdf
+bibtexurl: http://epub.cnipa.gov.cn/cred/CN118652955B
 ---
 
 
