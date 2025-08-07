@@ -26,17 +26,13 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
+      {{ title }}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}
-      <h3><i class="fa fa-clock" aria-hidden="true"></i> 获批时间：{{ post.date | default: "1900-01-01" | date: "%Y"}}</h3>
+      <h3><i class="fa fa-clock" aria-hidden="true"></i> 获批时间：{{ post.date | default: "1900-01-01" | date: "%Y年%m月%d日"}}</h3>
     {% endif %}
     {% if post.venue %}<h3>{{post.type}}, {{ post.venue }}, {{post.number}} </h3>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
