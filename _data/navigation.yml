@@ -11,17 +11,16 @@ main:
   - title: "文章书籍"
     url: /publications/
 
-  - title: "报告"
+  - title: "路演及报告"
     url: /talks/    
 
   - title: "项目"
     url: /projects/    
-
     
   - title: "专利"
     url: /patents/
         
-  - title: "瞎写"
+  - title: "随笔"
     url: /year-archive/
     
   # - title: "CV"
