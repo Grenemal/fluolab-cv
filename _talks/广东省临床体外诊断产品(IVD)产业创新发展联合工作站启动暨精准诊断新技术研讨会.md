@@ -8,4 +8,3 @@ category: huiyi
 type: '邀请报告'
 ---
 
-This is a description of your talk, which is a markdown file that can be all markdown-ified like any other post. Yay markdown!
