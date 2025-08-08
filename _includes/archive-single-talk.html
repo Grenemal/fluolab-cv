@@ -26,15 +26,13 @@
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
-      {{venue}}
+      {{post.venue}}
     </h2>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.type %}<h4 style="color: blue;">{{ post.type }}</h3> {% endif %}
-    {% if post.title %}<h3 style="color: rgb(255, 0, 0);">{{ post.title }}</h3> {% endif %}    
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }}</p>{% endif %}
-    {% if post.location %}<p class="archive__item-excerpt" itemprop="description"> {{post.location}} {% endif %}
+    {% if post.type %}<span style="color: blue;">{{ post.type }}</span> span style="color: rgb(255, 0, 0);">{{ post.title }}</span> {% endif %}  
+    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%Y-%m-%d' }},{{post.location}} </p>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
   </article>
 </div>
