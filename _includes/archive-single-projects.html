@@ -12,7 +12,7 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item" style="box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -32,7 +32,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.date %}
-      <h3> <i class="fa fa-money" aria-hidden="true"></i> <span style="color: red;font-weight: bolder;">{{post.funding}}</span>  <i class="fa fa-clock" aria-hidden="true"></i> 获批时间：{{ post.date | default: "1900-01-01" | date: "%Y年%m月%d日"}}</h3>
+      <h3><i class="fa fa-money" aria-hidden="true"></i> <span style="color: red;font-weight: bolder;">{{post.funding}}</span>  <i class="fa fa-clock" aria-hidden="true"></i> 获批时间：{{ post.date | default: "1900-01-01" | date: "%Y年%m月%d日"}}</h3>
     {% endif %}
     {% if post.venue %}<h3>{{post.type}}, {{ post.venue }}, {{post.number}} </h3>{% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
