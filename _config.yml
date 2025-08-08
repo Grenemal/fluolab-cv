@@ -93,10 +93,11 @@ project_category:
   att:
     title: '参与'
 talks_category:
-  huiyi:
-    title: '会议报告'
   luyan:
     title: '路演'
+  huiyi:
+    title: '会议报告'
+
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
