@@ -1,5 +1,5 @@
 ---
-title: ""Organelle-Targeted AIE Probes for Cell Sorting"
+title: "Organelle-Targeted AIE Probes for Cell Sorting"
 collection: publications
 category: books
 excerpt: "<p style='text-align:justify'>In conclusion, the future of AIE organelle-targeted probes in cell sorting is bright. As research continues to advance, we can expect to see significant improvements in probe design, integration with other technologies, and clinical applications. These advancements will have a profound impact on various fields, including cell biology, medicine, and biotechnology.</p><img src='/images/GA/Publications-2025-Encyclopedia-cell.jpg' style='width: 400px; border-radius: 20px; display: block; margin: 0 auto;'>"
