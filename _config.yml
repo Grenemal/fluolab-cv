@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US" #不需要更改
 site_theme               : "default" #不需要更改
-title                    : "ElOneven的自我介绍" #可以随便填，无所谓
+title                    : "龚晚君的自我介绍" #可以随便填，无所谓
 title_separator          : "-" #不需要更改
 name                     : &name "龚晚君" #改成自己的名字，或者不该都行
 description              : &description "一个介绍自己的网站" #可以随便填，无所谓
@@ -28,8 +28,8 @@ author:
   bio              : "一只牛马"
   location         : "中国-广州"
   employer         : "飞秒激光研究中心（广州）有限公司"
-  uri              : # URL
-  email            : "w.j.gong1989@gmail.com" 
+  uri              : 'academic.fluolab.cn' # URL
+  email            : "wanjun0420@outlook.com" 
 
   # Academic websites
   academia         : "https://umd.academia.edu/GongWanjun"
@@ -66,7 +66,7 @@ author:
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : "ElOneven"
+  telegram         : "@ElOneven"
   tumblr           : # Username
   twitter          : # Username for X / Twitter
   vine             : # Username
