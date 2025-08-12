@@ -28,7 +28,7 @@ author:
   bio              : "一只牛马"
   location         : "中国-广州"
   employer         : "飞秒激光研究中心（广州）有限公司"
-  uri              : "https://academic.fluolab.cn" # URL
+  uri              : # URL
   email            : "wanjun0420@outlook.com" 
 
   # Academic websites
